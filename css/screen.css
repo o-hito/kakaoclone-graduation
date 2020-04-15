@@ -9,11 +9,21 @@
   width: 100%;
   height: 100%;
   background-image: url(/images/nomad.png);
-  background-color: rgba(255, 255, 255, 0.9);
   background-size: cover;
-  background-blend-mode: overlay;
   background-position: center;
   display: none;
+  z-index: 2;
+}
+
+.bigScreen::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 @media screen and (min-width: 550px) {
