@@ -1,0 +1,84 @@
+.friends-list {
+  padding: 0px 20px;
+}
+
+.friend {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.friend:hover {
+  box-shadow: 0px 2px 8px -1px rgb(255, 149, 0, 0.7);
+}
+
+.friend__status {
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+}
+
+.friend__name {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.friend__date {
+  font-size: 13px;
+}
+
+.friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend__column .friend__name {
+  display: block;
+}
+
+.friend__column .friend-img {
+  object-fit: cover; /* 호환성 조심해야돼 */
+  border-radius: 35%;
+  margin-right: 12px;
+}
+
+.friend__column .small {
+  width: 50px;
+  height: 50px;
+}
+
+.friend__column .middle {
+  width: 60px;
+  height: 60px;
+}
+
+.friend__column .big {
+  width: 70px;
+  height: 70px;
+}
+
+.friend__music {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(241, 136, 66);
+  padding: 5px 8px;
+  border-radius: 15px;
+}
+
+.friend__music__title {
+  font-size: 12px;
+}
+
+.friend__music__play {
+  margin-left: 5px;
+  color: rgb(241, 136, 66);
+}
+
+.sectitle {
+  color: rgb(151, 151, 151);
+  text-transform: capitalize;
+  font-size: 13px;
+  margin-bottom: 12px;
+  border-top: 1px solid rgb(238, 236, 236);
+  padding-top: 12px;
+}

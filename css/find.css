@@ -1,0 +1,32 @@
+.find {
+  padding: 0px 20px;
+}
+
+.find__btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.find__btns__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find__btns__btn i {
+  color: #526385;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.find__btns__btn span {
+  font-size: 13px;
+}
+
+.find__list .friend .fa-user-plus {
+  padding: 10px 13px;
+  background-color: #232a38;
+  color: white;
+  border-radius: 5px;
+}

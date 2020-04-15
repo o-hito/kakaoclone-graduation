@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.header__title {
+  font-size: 24px;
+}
+
+.header__column i {
+  color: #526385;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.fa-arrow-left {
+  color: white;
+  margin-right: 20px;
+}

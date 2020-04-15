@@ -1,0 +1,25 @@
+.search-bar {
+  display: flex;
+  background-color: rgb(230, 230, 230);
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 0px 20px 15px;
+}
+
+.search-bar i {
+  color: rgb(185, 184, 184);
+  margin-right: 10px;
+  animation: magnifyRotate 1.5s infinite linear;
+}
+
+@keyframes magnifyRotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.search-bar input {
+  width: 100%;
+  border: none;
+  background-color: rgb(230, 230, 230);
+}
