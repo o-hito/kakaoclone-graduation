@@ -92,6 +92,10 @@
   color: white;
 }
 
+.header-wrapper .status-bar {
+  box-shadow: none;
+}
+
 .type {
   width: 100%;
   display: flex;
